@@ -1,0 +1,39 @@
+name: emersion_media_exam
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.0.1
+  
+  #utils
+  freezed: ^1.1.1
+  http: ^0.13.4
+  #dependency injection libs
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+
+   #code generator related libs
+  json_annotation: ^4.4.0
+  json_serializable: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.8
+  injectable_generator: ^1.5.3
+
+
+flutter:
+
+  uses-material-design: true
+
